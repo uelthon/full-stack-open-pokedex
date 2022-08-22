@@ -1,0 +1,14 @@
+name: Now it is
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Now_it_is_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: its date
+        run: |
+          echo date
